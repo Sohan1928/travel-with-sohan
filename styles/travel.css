@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+font-family: 'Poppins', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    
+}
+
+.primary-btn{
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+    width: 170px;
+    height: 50px;
+    color: #FFF;
+}
+
+/* nav related style */
+.company-logo-name{
+    display: flex;
+    margin: 20px 135px;
+    gap: 15px;
+    align-items: center;
+}
+
+.company-logo-name img{
+    width: 48px;
+    height: 56px;
+}
+.company-logo-name h1{
+    font-size: 2.2em;
+    font-weight: 800;
+}
+.sohan{
+    color: #FF5400;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container ul a{
+    color: #424247;
+    padding-right: 44px;
+    text-decoration: none;
+}
+
+.nav-container .home{
+    color: #FF5400;
+}
+
+/* banner related style */
+
+.banner-section{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    max-width: 1170px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 135px;
+    margin-right: 135px;
+    border-radius: 18px;
+}
+.banner-section .banner-container{
+    text-align: center;
+    padding: 10px;
+}    
+.banner-section .banner-container h1{
+    font-size: 4em;
+    color: #FFF;
+}
+.banner-section .banner-container p{
+    font-size: 1em;
+    color: #FFF;
+    padding: 0 247px;
+    margin: 0 auto;
+}
+.banner-section .banner-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px ;
+    gap: 20px;
+    background-repeat: no-repeat;
+}
+
+.banner-container .banner-btn input{
+    border: none;
+    border-radius: 8px;
+    width: 170px;
+    height: 50px;
+}
+
+/* popular related style */
+.popular-section{
+    margin: 100px 135px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.popular-container{
+    display: flex;
+    color: rgba(19, 19, 24, 0.70);
+    
+}
+.popular-container h2{
+    color: #131318;
+}
+.popular-section .popular-container img{
+    width: 440px;
+    height: 540px;
+    margin: 0 auto;
+}
