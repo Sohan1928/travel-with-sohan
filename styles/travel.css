@@ -5,6 +5,7 @@ font-family: 'Poppins', sans-serif;
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     max-width: 1440px;
     
 }
@@ -116,4 +117,185 @@ font-family: 'Poppins', sans-serif;
     width: 440px;
     height: 540px;
     margin: 0 auto;
+}
+
+/* choose your destination related style */
+
+.destination-section{
+    margin: 100px 135px;
+    font-family: 'Poppins', sans-serif;
+}
+.destination-section .destination-heading{
+    text-align: center;
+}
+.destination-section .destination-heading h1{
+    color: #131318;
+    font-size: 2.5em;
+}
+.destination-section .destination-heading p{
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.Maldives-container{
+    position: relative;
+    text-align: left;
+    color: #FFF;
+    width: 450px;
+}
+.Maldives{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Indonesia-container{
+    position: relative;
+    text-align: left;
+    color: #FFF;
+    width: 450px;
+}
+.Indonesia{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.destination-two-img{
+    display: flex;
+    padding-right: 10px;
+    margin: 0 auto;
+   
+}
+.Srilanka-img-container{
+    position: relative;
+    text-align: left;
+    color: #FFF;
+    width: 370px;
+}
+.Srilanka{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.North-America-container{
+    position: relative;
+    text-align: left;
+    color: #FFF;
+    width: 400px;
+}
+.North-America{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Kashmir-container{
+    position: relative;
+    text-align: left;
+    color: #FFF;
+    width: 250px;
+}
+.Kashmir{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.destination-three-img{
+    display: flex;
+    padding: 10px 10px;
+}
+
+.Bangladesh-container{
+    position: relative;
+    text-align: left;
+    color: #FFF;
+    width: 350px;
+}
+.Bangladesh{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Bandarban-container{
+    position: relative;
+    text-align: left;
+    color: #FFF;
+}
+.Bandarban{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.last-two-img{
+    display: flex;
+}
+
+
+/* choose us related style */
+.choose-container{
+    margin: 100px 135px;
+    font-family: 'Poppins', sans-serif;
+}
+.choose-container .choose-header{
+    text-align: center;
+}
+.choose-header h1{
+    font-size: 2.5em;
+    color: #131318;
+}
+.choose-header p{
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.hotel-container{
+    border:2px  ;
+    background-color: rgba(251, 181, 99, 0.05);
+    width: 450px;
+    height: 250px;
+    border-radius: 16px;
+    padding: 30px;
+}
+.hotel-container img{
+    width: 50px;
+}
+
+.map-container{
+    border: 2px;
+    background-color: rgba(41, 206, 246, 0.05);
+    width: 450px;
+    height: 250px;
+    border-radius: 16px;
+    padding: 30px;
+}
+.map-container img{
+    width: 50px;
+}
+.choose-two-img{
+    display: flex;
+    gap: 20px;
+}
+.best-price{
+    border: 2px ;
+    background-color: rgba(233, 68, 68, 0.05);
+    width: 450px;
+    height: 250px;
+    border-radius: 16px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+.best-price img{
+    width: 50px;
+}
+.choose-container .best-price{
+    
 }
