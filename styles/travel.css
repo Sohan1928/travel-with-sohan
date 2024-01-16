@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
-font-family: 'Poppins', sans-serif;
+font-family: 'Poppins',
+sans-serif;
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 1440px;
-    
+
 }
 
-.primary-btn{
+.primary-btn {
     background-color: #FF5400;
     border: none;
     border-radius: 8px;
@@ -20,44 +21,46 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* nav related style */
-.company-logo-name{
+.company-logo-name {
     display: flex;
     margin: 20px 135px;
     gap: 15px;
     align-items: center;
 }
 
-.company-logo-name img{
+.company-logo-name img {
     width: 48px;
     height: 56px;
 }
-.company-logo-name h1{
+
+.company-logo-name h1 {
     font-size: 2.2em;
     font-weight: 800;
 }
-.sohan{
+
+.sohan {
     color: #FF5400;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav-container ul a{
+.nav-container ul a {
     color: #424247;
     padding-right: 44px;
     text-decoration: none;
 }
 
-.nav-container .home{
+.nav-container .home {
     color: #FF5400;
 }
 
 /* banner related style */
 
-.banner-section{
+.banner-section {
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     max-width: 1170px;
     height: 500px;
@@ -68,31 +71,40 @@ font-family: 'Poppins', sans-serif;
     margin-right: 135px;
     border-radius: 18px;
 }
-.banner-section .banner-container{
+
+.banner-section .banner-container {
     text-align: center;
     padding: 10px;
-}    
-.banner-section .banner-container h1{
+}
+
+.banner-section .banner-container h1 {
     font-size: 4em;
     color: #FFF;
 }
-.banner-section .banner-container p{
+
+.banner-section .banner-container p {
     font-size: 1em;
     color: #FFF;
     padding: 0 247px;
     margin: 0 auto;
 }
-.banner-section .banner-btn{
+
+.banner-section .banner-btn {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    padding: 50px ;
+    padding: 50px;
     gap: 20px;
     background-repeat: no-repeat;
+    background: rgba(255, 255, 255, 0.30);
+    opacity: 1;
+    width: 650px;
+    height: 10px;
+    border-radius: 8px;
 }
 
-.banner-container .banner-btn input{
+.banner-container .banner-btn input {
     border: none;
     border-radius: 8px;
     width: 170px;
@@ -100,20 +112,23 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* popular related style */
-.popular-section{
+.popular-section {
     margin: 100px 135px;
     font-family: 'Poppins', sans-serif;
-    
+
 }
-.popular-container{
+
+.popular-container {
     display: flex;
     color: rgba(19, 19, 24, 0.70);
-    
+
 }
-.popular-container h2{
+
+.popular-container h2 {
     color: #131318;
 }
-.popular-section .popular-container img{
+
+.popular-section .popular-container img {
     width: 440px;
     height: 540px;
     margin: 0 auto;
@@ -121,154 +136,171 @@ font-family: 'Poppins', sans-serif;
 
 /* choose your destination related style */
 
-.destination-section{
+.destination-section {
     margin: 100px 135px;
     font-family: 'Poppins', sans-serif;
 }
-.destination-section .destination-heading{
+
+.destination-section .destination-heading {
     text-align: center;
 }
-.destination-section .destination-heading h1{
+
+.destination-section .destination-heading h1 {
     color: #131318;
     font-size: 2.5em;
 }
-.destination-section .destination-heading p{
+
+.destination-section .destination-heading p {
     color: rgba(19, 19, 24, 0.70);
 }
 
-.Maldives-container{
+.Maldives-container {
     position: relative;
     text-align: left;
     color: #FFF;
     width: 450px;
 }
-.Maldives{
+
+.Maldives {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.Indonesia-container{
+.Indonesia-container {
     position: relative;
     text-align: left;
     color: #FFF;
     width: 450px;
 }
-.Indonesia{
+
+.Indonesia {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.destination-two-img{
+.destination-two-img {
     display: flex;
     padding-right: 10px;
     margin: 0 auto;
-   
+
 }
-.Srilanka-img-container{
+
+.Srilanka-img-container {
     position: relative;
     text-align: left;
     color: #FFF;
     width: 370px;
 }
-.Srilanka{
+
+.Srilanka {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.North-America-container{
+.North-America-container {
     position: relative;
     text-align: left;
     color: #FFF;
     width: 400px;
 }
-.North-America{
+
+.North-America {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-.Kashmir-container{
+
+.Kashmir-container {
     position: relative;
     text-align: left;
     color: #FFF;
     width: 250px;
 }
-.Kashmir{
+
+.Kashmir {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.destination-three-img{
+.destination-three-img {
     display: flex;
     padding: 10px 10px;
 }
 
-.Bangladesh-container{
+.Bangladesh-container {
     position: relative;
     text-align: left;
     color: #FFF;
     width: 350px;
 }
-.Bangladesh{
+
+.Bangladesh {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.Bandarban-container{
+.Bandarban-container {
     position: relative;
     text-align: left;
     color: #FFF;
 }
-.Bandarban{
+
+.Bandarban {
     position: absolute;
     top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.last-two-img{
+
+.last-two-img {
     display: flex;
 }
 
 
 /* choose us related style */
-.choose-container{
+.choose-container {
     margin: 100px 135px;
     font-family: 'Poppins', sans-serif;
 }
-.choose-container .choose-header{
+
+.choose-container .choose-header {
     text-align: center;
 }
-.choose-header h1{
+
+.choose-header h1 {
     font-size: 2.5em;
     color: #131318;
 }
-.choose-header p{
+
+.choose-header p {
     color: rgba(19, 19, 24, 0.70);
 }
 
-.hotel-container{
-    border:2px  ;
+.hotel-container {
+    border: 2px;
     background-color: rgba(251, 181, 99, 0.05);
     width: 450px;
     height: 250px;
     border-radius: 16px;
     padding: 30px;
 }
-.hotel-container img{
+
+.hotel-container img {
     width: 50px;
 }
 
-.map-container{
+.map-container {
     border: 2px;
     background-color: rgba(41, 206, 246, 0.05);
     width: 450px;
@@ -276,15 +308,18 @@ font-family: 'Poppins', sans-serif;
     border-radius: 16px;
     padding: 30px;
 }
-.map-container img{
+
+.map-container img {
     width: 50px;
 }
-.choose-two-img{
+
+.choose-two-img {
     display: flex;
     gap: 20px;
 }
-.best-price{
-    border: 2px ;
+
+.best-price {
+    border: 2px;
     background-color: rgba(233, 68, 68, 0.05);
     width: 450px;
     height: 250px;
@@ -293,9 +328,82 @@ font-family: 'Poppins', sans-serif;
     margin-top: 20px;
     margin-left: 220px;
 }
-.best-price img{
+
+.best-price img {
     width: 50px;
 }
-.choose-container .best-price{
-    
+
+/* perfect place related style */
+.perfect-place-container {
+    margin: 100px 135px;
+    display: flex;
 }
+
+.perfect-place-container img {
+    width: 500px;
+    height: 400px;
+}
+
+.perfect-place-container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+}
+
+.perfect-place-container p {
+    color: #5A5A5D;
+    padding-right: 30px;
+}
+
+.perfect-place-container ul li {
+    color: #131318;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+/* newsletter related style */
+.newslatter-section {
+
+    margin: 120px 135px;
+    margin-left: 175px;
+}
+
+.newslatter-section .newslatter-container {
+    display: flex;
+}
+
+.newslatter-section.newslatter-containe h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #131318;
+    font-size: 1.5em;
+}
+
+.newslatter-container p {
+    color: #5A5A5D;
+}
+
+.newslatter-section .btn {
+    height: 52px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.newslatter-section img{
+    width: 600px;
+    height: 400px;
+    padding-left: 60px;
+    position: relative;
+}
+.newslatter-section .primary-button{
+    position: absolute;
+    transform: rotate(-19.628deg);
+    background-color: #FF5400;
+    border: none;
+    width: 200px;
+    height: 80px;
+    border-radius: 15px;
+    color: #FFF;
+    left: 865px;
+    margin-top: 290px;
+}
+
